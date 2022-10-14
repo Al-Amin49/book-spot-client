@@ -1,9 +1,31 @@
 import React from 'react';
-
-const Book = () => {
+import{ Button, Card, Col} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+const Book = ({book}) => {
+const {_id, book_name,author_name, price, img }= book
     return (
-        <div>
-            
+       
+           <div className='text-center'> 
+      
+        <Col >
+        <Card >
+      <Card.Img variant="top" src={img} style={{height:'300px'}}/>
+      
+      <Card.Body>
+        <Card.Title>{book_name}</Card.Title>
+        <Card.Text>
+          {author_name}
+        </Card.Text>
+        <hr/>
+        <div className='d-flex '>
+            <h4 className='mx-5'>${price}</h4>
+      <Link to={`/checkout/${_id}`}>  <Button variant="info">Buy Now</Button></Link>
+        </div>
+      </Card.Body>
+    </Card>
+        
+        </Col>
+          
         </div>
     );
 };

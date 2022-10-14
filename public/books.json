@@ -1,65 +1,56 @@
 [
     {
-      "_id": "63446a534bbb7772a705b6cd",
       "book_name": "Graham Cameron",
       "author_name": "Fox Watkins",
       "price": 354,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/QFfhXCh/image-19.png"
     },
     {
-      "_id": "63446a530cb410c96844d43d",
       "book_name": "Cassie Solomon",
       "author_name": "Mcgowan Whitehead",
       "price": 121,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/QXSjh57/image-20.png"
     },
     {
-      "_id": "63446a53eab6d3a2475316ee",
       "book_name": "Sandra Gilbert",
       "author_name": "Case Henson",
       "price": 224,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/8DG8PPb/image-21.png"
     },
     {
-      "_id": "63446a53c60d7fe25865dbb5",
       "book_name": "Bush Robbins",
       "author_name": "Roy Austin",
       "price": 286,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/tzcWTj2/image-22.png"
     },
     {
-      "_id": "63446a5393f5b886dd32182c",
       "book_name": "Sally Benton",
       "author_name": "Erika Neal",
       "price": 215,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/rfmTVzs/image-23.png"
     },
     {
-      "_id": "63446a530d8c24f8881a1ab1",
       "book_name": "Maxine Osborne",
       "author_name": "Buckner Kaufman",
       "price": 211,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/xz96WjV/image-25.png"
     },
     {
-      "_id": "63446a53a3a879f9c37eae3f",
       "book_name": "Autumn Morin",
       "author_name": "Moreno Downs",
       "price": 378,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/xLyyDBb/image-29.png"
     },
     {
-      "_id": "63446a53b67d94112f42ff8b",
       "book_name": "Madge Garcia",
       "author_name": "Barr Price",
       "price": 369,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/kXcH9kG/image-30.png"
     },
     {
-      "_id": "63446a5306db5585d9fb21cc",
       "book_name": "Hogan Harvey",
       "author_name": "Jaclyn Joyce",
       "price": 327,
-      "img": "http://placehold.it/32x32"
+      "img": "https://i.ibb.co/BrVFtQp/image-31.png"
     }
   ]
