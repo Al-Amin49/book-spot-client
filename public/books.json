@@ -1,55 +1,56 @@
 [
     {
-      "book_name": "Graham Cameron",
-      "author_name": "Fox Watkins",
+      "name": "Graham Cameron",
+      "author": "Fox Watkins",
       "price": 354,
       "img": "https://i.ibb.co/QFfhXCh/image-19.png"
     },
     {
-      "book_name": "Cassie Solomon",
-      "author_name": "Mcgowan Whitehead",
+      "name": "Cassie Solomon",
+      "author": "Mcgowan Whitehead",
       "price": 121,
       "img": "https://i.ibb.co/QXSjh57/image-20.png"
     },
     {
-      "book_name": "Sandra Gilbert",
-      "author_name": "Case Henson",
+      "name": "Sandra Gilbert",
+      "author": "Case Henson",
       "price": 224,
       "img": "https://i.ibb.co/8DG8PPb/image-21.png"
     },
+    
     {
-      "book_name": "Bush Robbins",
-      "author_name": "Roy Austin",
+      "name": "Bush Robbins",
+      "author": "Roy Austin",
       "price": 286,
       "img": "https://i.ibb.co/tzcWTj2/image-22.png"
     },
     {
-      "book_name": "Sally Benton",
-      "author_name": "Erika Neal",
+      "name": "Sally Benton",
+      "author": "Erika Neal",
       "price": 215,
       "img": "https://i.ibb.co/rfmTVzs/image-23.png"
     },
     {
-      "book_name": "Maxine Osborne",
-      "author_name": "Buckner Kaufman",
+      "name": "Maxine Osborne",
+      "author": "Buckner Kaufman",
       "price": 211,
       "img": "https://i.ibb.co/xz96WjV/image-25.png"
     },
     {
-      "book_name": "Autumn Morin",
-      "author_name": "Moreno Downs",
+      "name": "Autumn Morin",
+      "author": "Moreno Downs",
       "price": 378,
       "img": "https://i.ibb.co/xLyyDBb/image-29.png"
     },
     {
-      "book_name": "Madge Garcia",
-      "author_name": "Barr Price",
+      "name": "Madge Garcia",
+      "author": "Barr Price",
       "price": 369,
       "img": "https://i.ibb.co/kXcH9kG/image-30.png"
     },
     {
-      "book_name": "Hogan Harvey",
-      "author_name": "Jaclyn Joyce",
+      "name": "Hogan Harvey",
+      "author": "Jaclyn Joyce",
       "price": 327,
       "img": "https://i.ibb.co/BrVFtQp/image-31.png"
     }

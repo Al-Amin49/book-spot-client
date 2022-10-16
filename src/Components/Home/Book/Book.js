@@ -2,7 +2,7 @@ import React from 'react';
 import{ Button, Card, Col} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const Book = ({book}) => {
-const {_id, book_name,author_name, price, img }= book
+const {_id, name,author, price, img }= book
     return (
        
            <div className='text-center'> 
@@ -12,9 +12,9 @@ const {_id, book_name,author_name, price, img }= book
       <Card.Img variant="top" src={img} style={{height:'300px'}}/>
       
       <Card.Body>
-        <Card.Title>{book_name}</Card.Title>
+        <Card.Title>{name}</Card.Title>
         <Card.Text>
-          {author_name}
+          {author}
         </Card.Text>
         <hr/>
         <div className='d-flex '>

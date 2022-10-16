@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import {Container, Row} from 'react-bootstrap'
-import useBooks from '../../hooks/useBooks/useBooks';
+// import useBooks from '../../hooks/useBooks/useBooks';
 const Books = () => {
-    const [books]=useBooks();
+    const [books, setBooks]=useState([]);
+    useEffect(()=>{
+        fetch('http://localhost:4000/book')
+        .then(res=>res.json())
+        .then(data=>setBooks(data))
+    },[])
     
     return (
         <div>
