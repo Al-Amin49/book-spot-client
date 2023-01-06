@@ -8,7 +8,7 @@ const useBooks = (id) => {
         .then(res=>res.json())
         .then(data=>setBooks(data))
     },[])
-    return [books]
+    return [books, setBooks]
 };
 
 export default useBooks;

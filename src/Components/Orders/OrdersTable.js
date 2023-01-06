@@ -3,8 +3,9 @@ import React from 'react';
 const OrdersTable = ({order, index}) => {
     const {_id, name, book, address, phone, date, price}=order
     return (
-        <div>
-            <tr>
+        <div className='px-5 mx-5'>
+          <th>
+          <tr>
             <td>{index}</td>
             <td>{name}</td>
             <td>{address}</td>
@@ -13,6 +14,7 @@ const OrdersTable = ({order, index}) => {
             <td >{price}</td>
             <td>{new Date(date).toDateString('dd/MM/yyyy')}</td>
         </tr>
+        </th>
         </div>
     );
 };

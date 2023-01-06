@@ -11,6 +11,9 @@ import RequireAuth from './Components/Login/RequireAuth';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import Orders from './Components/Orders/Orders';
+import Admin from './Components/Admin/Admin';
+import AddBook from './Components/Admin/AddBook';
+import ManageBook from './Components/Admin/ManageBook';
 
 
 function App() {
@@ -18,6 +21,7 @@ function App() {
     <div >
       <Header/>
      <Routes>
+ 
       <Route path="/" element={<Home/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/register" element={<Register/>}/>
@@ -36,6 +40,17 @@ function App() {
         <Orders/>
     </RequireAuth>
       }/>
+      <Route path="/admin" element={
+    <RequireAuth>
+        <Admin/>
+    </RequireAuth>
+      }>
+  
+      </Route>
+      <Route path="/addBook" element={<AddBook/>}> </Route>
+      <Route path="manageBook" element={<ManageBook/>}> </Route>
+
+   
       
 
      </Routes>

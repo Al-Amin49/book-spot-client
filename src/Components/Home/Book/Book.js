@@ -6,6 +6,7 @@ const {_id, name,author, price, img }= book
     return (
        
            <div className='text-center'> 
+          
       
         <Col >
         <Card >
